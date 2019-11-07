@@ -1,0 +1,1 @@
+file_log = open("log_file.txt","a+")
