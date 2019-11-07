@@ -15,3 +15,15 @@ time.sleep(6)
 file_status = open('status.txt', 'w')
 file_status.write('True')
 file_status.close()
+
+time.sleep(10)
+
+file_status = open('status.txt', 'w')
+file_status.write('False')
+file_status.close()
+
+time.sleep(1)
+
+file_log = open("log_file.txt","w")
+file_log.write('')
+file_log.close()
